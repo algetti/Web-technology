@@ -1,0 +1,24 @@
+.square1{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.square2{
+	width: 100px;
+    height: 100px;
+    background: blue;
+	transform: translateX(60px);
+} 
+
+.square3{
+	width:100px;
+	height:100px;
+	background: green;
+	transition-duration: 1s;
+	animation-timing-function:ease-in;
+	transition-delay: 3s;
+}
+.square:hover{
+	background: #FF686B;
+	transform:rotate(45deg);
+}
