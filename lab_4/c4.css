@@ -1,0 +1,14 @@
+.square {
+	width: 200px;
+	height: 200px;
+	background: aquamarine;
+	animation: 2s infinite Color;
+}
+
+@keyframes Color{
+	0% {background:crimson;}
+	8%{background: indigo;}
+	50% {background: purple;}
+	92%{background: gold;}
+	100% {background: navy;}
+}

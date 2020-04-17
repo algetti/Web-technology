@@ -1,0 +1,147 @@
+.flex{
+	display: flex;
+	height:70vh;
+	flex-wrap: wrap;
+}
+
+.box1{
+	background-color:red;
+	width: 60%;
+	height: 20%;
+	
+}
+
+.box2{
+	background-color:yellow;
+	width: 40%;
+	height: 20%;
+}
+.box3{
+	background-color:blue;
+	width: 10%;
+	height: 20%;
+}
+
+.box4{
+	background-color:red;
+	width: 10%;
+	height: 20%;
+}
+
+.box5{
+	background-color: green;
+	width: 50%;
+	height: 20%;
+}
+
+.box6{
+	background-color: aquamarine;
+	width: 30%;
+	height: 20%;
+}
+.box7{
+	background-color:purple;
+	width: 30%;
+	height: 20%;
+	flex-grow: 2;
+
+}
+.box8{
+	background-color:orange;
+	width: 50%;
+	height: 20%;
+}
+.box9{
+	background-color:red;
+	width: 20%;
+	height: 20%;
+}
+
+
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr;
+	grid-template-rows: 1fr,1fr,1fr,1fr, 1fr,1fr,1fr;
+}
+
+.grid div:nth-child(1){
+	grid-column: 1/4;
+	grid-row: 1;
+	background-color: blue;
+}
+.grid div:nth-child(2){
+	grid-column: 4/6;
+	grid-row: 1;
+	background-color:yellow
+}
+.grid div:nth-child(3){
+	grid-column: 6/7;
+	grid-row: 1;
+	background-color: red;
+}
+.grid div:nth-child(4){
+	grid-column: 7/13;
+	grid-row: 1;
+	background-color: purple;
+}
+.grid div:nth-child(5){
+	grid-column: 1/7;
+	grid-row: 2/4;
+	background-color: green;
+}
+
+.grid div:nth-child(6){
+	grid-column: 7/10;
+	grid-row: 2/4;
+	background-color: coral;
+}
+.grid div:nth-child(7){
+	grid-column: 1/7;
+	grid-row: 4/5;
+	background-color:yellow
+}
+.grid div:nth-child(8){
+	grid-column: 7/10;
+	grid-row: 4/5;
+	background-color: red;
+}
+.grid div:nth-child(9){
+	grid-column: 13/10;
+	grid-row: 2/6;
+	background-color: pink;
+}
+.grid div:nth-child(10){
+	grid-column: 1/4;
+	grid-row: 5/8;
+	background-color: blue;
+}
+.grid div:nth-child(11){
+	grid-column: 4/6;
+	grid-row: 5/8;
+	background-color:orange;
+}
+.grid div:nth-child(12){
+	grid-column: 6/7;
+	grid-row: 5/8;
+	background-color: green;
+}
+.grid div:nth-child(13){
+	grid-column: 7/13;
+	grid-row: 5/7;
+	background-color: olive;
+}
+
+.grid div:nth-child(14){
+	grid-column: 7/13;
+	grid-row: 7/8;
+	background-color: aquamarine;
+}
+
+
+.grid > div{
+	background-color: #28314E;
+	padding: .5em;
+	font-size:5vw;
+	text-align: center;
+}
