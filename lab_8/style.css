@@ -1,0 +1,18 @@
+body{
+	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#latestPrice:before{
+	content: '$';
+}
+
+#latestUpdate:after{
+	content: 'sec';
+}
+
+#tableCaption:after{
+	content: 'sec';
+}
